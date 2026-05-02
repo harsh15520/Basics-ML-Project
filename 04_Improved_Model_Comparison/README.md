@@ -55,8 +55,3 @@ Expect the improved models to beat the baseline on some metrics (often ROC-AUC a
 - **Look beyond accuracy**: for imbalanced problems, prefer ROC-AUC, precision-recall, and F1.  
 - **Check calibration**: a higher AUC doesn’t guarantee well-calibrated probabilities. If you need probabilities, consider calibration steps.  
 - **Feature importance**: tree-based importances are useful for intuition but not a substitute for careful feature analysis.
-
----
----
-
-If you want, I can also draft a tiny script that loads `best_model.pkl` and runs predictions on new data, or help extract the evaluation table into a standalone CSV for tracking experiments.
