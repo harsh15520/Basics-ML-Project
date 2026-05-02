@@ -46,6 +46,5 @@ These numbers are the baseline from this run — expect variation if you change 
 - **This is a baseline**: the point is to get a working, interpretable model quickly. Don’t expect production-level performance.  
 - **Feature handling**: the notebook uses a small set of engineered features (age, sex, passenger class, family size proxies). If you change features, re-save the `feature_cols.pkl` so downstream code knows what to expect. 
 - **Reproducibility**: the split uses `random_state=42`. If you want different folds, change or remove that seed.  
-- **Interpretation**: coefficients are plotted with color coding (red = negative effect on survival, green = positive). Use that plot to sanity-check feature directions before trying complex models.   [localhost](http://localhost/notebooks/03_Baseline_Model.ipynb)
-
+- **Interpretation**: coefficients are plotted with color coding (red = negative effect on survival, green = positive). Use that plot to sanity-check feature directions before trying complex models.
 ---
