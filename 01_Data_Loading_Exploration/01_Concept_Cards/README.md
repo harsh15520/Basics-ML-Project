@@ -17,4 +17,3 @@ These explain the foundational concepts behind M1:
    - Why: Order matters (you diagnose before fixing)
    - When: Applied consistently to ANY dataset
    - **Read this if:** You want a framework that works for every dataset
----
